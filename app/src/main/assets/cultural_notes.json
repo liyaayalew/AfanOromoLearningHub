@@ -1,0 +1,29 @@
+{
+  "cultural_notes": [
+    {
+      "title": "Greeting Customs",
+      "content": "In Oromo culture, greetings are very important and can be quite elaborate. It's common to ask about family, health, and work when greeting someone.",
+      "category": "Social Customs"
+    },
+    {
+      "title": "Respect for Elders",
+      "content": "Elders are highly respected in Oromo culture. When greeting an elder, it's polite to use formal language and show respect through body language.",
+      "category": "Social Customs"
+    },
+    {
+      "title": "Coffee Ceremony",
+      "content": "Coffee (buna) plays a central role in Oromo social life. The coffee ceremony can last several hours and involves roasting, grinding, and brewing coffee in a special pot called a jebena.",
+      "category": "Food & Drink"
+    },
+    {
+      "title": "Gadaa System",
+      "content": "The Gadaa system is the traditional social organization of the Oromo people. It's a democratic system based on age grades with leaders elected every eight years.",
+      "category": "History & Society"
+    },
+    {
+      "title": "Irreecha Festival",
+      "content": "Irreecha is the Oromo Thanksgiving festival celebrated annually to thank Waaq (God) for the blessings of the previous year.",
+      "category": "Festivals"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme variant -->
+    <style name="Base.Theme.AfanOromoLearning" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color (same as light) -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/black</item>
+
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/darkBackground</item>
+
+        <!-- Text colors for dark mode -->
+        <item name="android:textColorPrimary">@color/darkTextPrimary</item>
+        <item name="android:textColorSecondary">@color/darkTextSecondary</item>
+    </style>
+
+    <style name="Theme.AfanOromoLearning" parent="Base.Theme.AfanOromoLearning" />
+
+    <!-- Dark mode button styles -->
+    <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- ========== ADD THIS: Generic Text Style for Dark Theme ========== -->
+    <style name="Text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkTextPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+    <!-- ================================================================ -->
+
+    <!-- Dark mode text styles -->
+    <style name="Text.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/darkTextPrimary</item>
+    </style>
+
+    <style name="Text.Subtitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/darkTextPrimary</item>
+    </style>
+
+    <style name="Text.Body">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkTextSecondary</item>
+    </style>
+
+    <style name="Text.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/darkTextSecondary</item>
+    </style>
+
+    <!-- Dark mode card styles -->
+    <style name="Card.Elevated" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardBackgroundColor">@color/darkCardBackground</item>
+        <item name="strokeColor">@color/darkCardStroke</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+</resources>

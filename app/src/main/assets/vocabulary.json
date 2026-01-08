@@ -1,0 +1,44 @@
+{
+  "vocabulary": [
+    {
+      "category": "Greetings",
+      "words": [
+        {
+          "oromo": "Akkam",
+          "english": "Hello",
+          "pronunciation": "ah-kahm",
+          "example": "Akkam jirtu? - How are you?"
+        },
+        {
+          "oromo": "Nagaa",
+          "english": "Goodbye/Peace",
+          "pronunciation": "nah-gah",
+          "example": "Nagaan buli - Goodbye (said by person leaving)"
+        },
+        {
+          "oromo": "Galatoomaa",
+          "english": "Thank you",
+          "pronunciation": "gah-lah-too-mah",
+          "example": "Baay'ee galatoomaa - Thank you very much"
+        }
+      ]
+    },
+    {
+      "category": "Numbers",
+      "words": [
+        {
+          "oromo": "Tokko",
+          "english": "One",
+          "pronunciation": "tok-ko",
+          "example": "Tokko qaba - I have one"
+        },
+        {
+          "oromo": "Lama",
+          "english": "Two",
+          "pronunciation": "lah-mah",
+          "example": "Lama nu qaba - We have two"
+        }
+      ]
+    }
+  ]
+}

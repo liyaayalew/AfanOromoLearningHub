@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Back Button -->
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_back"
+            app:tint="@color/colorPrimary"
+            android:contentDescription="@string/back" />
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/whats_your_goal"
+            android:textColor="@color/textPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/choose_why_learn"
+            android:textColor="@color/textSecondary"
+            android:textSize="14sp" />
+
+        <!-- Travel Goal -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardTravel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="16dp"
+            app:strokeColor="@color/grayLight"
+            app:strokeWidth="1dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_goal_travel"
+                    android:contentDescription="@string/goal_travel" />
+
+                <ImageView
+                    android:id="@+id/checkTravel"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_check"
+                    app:tint="@color/colorPrimary"
+                    android:visibility="gone"
+                    android:contentDescription="@string/selected" />
+
+                <TextView
+                    android:id="@+id/titleTravel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="72dp"
+                    android:text="@string/travel_tourism"
+                    android:textColor="@color/textPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleTravel"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/for_visiting_oromia"
+                    android:textColor="@color/textSecondary"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Family Goal -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardFamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:strokeColor="@color/grayLight"
+            app:strokeWidth="1dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_goal_family"
+                    android:contentDescription="@string/goal_family" />
+
+                <ImageView
+                    android:id="@+id/checkFamily"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_check"
+                    app:tint="@color/colorPrimary"
+                    android:visibility="gone"
+                    android:contentDescription="@string/selected" />
+
+                <TextView
+                    android:id="@+id/titleFamily"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="72dp"
+                    android:text="@string/family_friends"
+                    android:textColor="@color/textPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleFamily"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/connect_with_family"
+                    android:textColor="@color/textSecondary"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Business Goal -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardBusiness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:strokeColor="@color/grayLight"
+            app:strokeWidth="1dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_goal_business"
+                    android:contentDescription="@string/goal_business" />
+
+                <ImageView
+                    android:id="@+id/checkBusiness"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_check"
+                    app:tint="@color/colorPrimary"
+                    android:visibility="gone"
+                    android:contentDescription="@string/selected" />
+
+                <TextView
+                    android:id="@+id/titleBusiness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="72dp"
+                    android:text="@string/business_work"
+                    android:textColor="@color/textPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleBusiness"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/for_professional_purposes"
+                    android:textColor="@color/textSecondary"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Academic Goal -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardAcademic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:strokeColor="@color/grayLight"
+            app:strokeWidth="1dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_goal_academic"
+                    android:contentDescription="@string/goal_academic" />
+
+                <ImageView
+                    android:id="@+id/checkAcademic"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_check"
+                    app:tint="@color/colorPrimary"
+                    android:visibility="gone"
+                    android:contentDescription="@string/selected" />
+
+                <TextView
+                    android:id="@+id/titleAcademic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="72dp"
+                    android:text="@string/academic_study"
+                    android:textColor="@color/textPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleAcademic"
+                    android:layout_marginStart="72dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/for_university_research"
+                    android:textColor="@color/textSecondary"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Continue Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="40dp"
+            android:enabled="false"
+            android:text="@string/continue_text"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+</ScrollView>

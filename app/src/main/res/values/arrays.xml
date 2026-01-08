@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Lesson Categories -->
+    <string-array name="lesson_categories">
+        <item>Greetings</item>
+        <item>Numbers</item>
+        <item>Family</item>
+        <item>Food &amp; Drinks</item>
+        <item>Daily Activities</item>
+        <item>Shopping</item>
+        <item>Directions</item>
+        <item>Time &amp; Date</item>
+        <item>Weather</item>
+        <item>Health</item>
+    </string-array>
+
+    <!-- Practice Types -->
+    <string-array name="practice_types">
+        <item>Speaking Practice</item>
+        <item>Listening Practice</item>
+        <item>Vocabulary Practice</item>
+        <item>Grammar Practice</item>
+        <item>Conversation Practice</item>
+    </string-array>
+
+    <!-- Difficulty Levels -->
+    <string-array name="difficulty_levels">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+
+    <!-- Lesson Durations -->
+    <string-array name="lesson_durations">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+
+    <!-- Vocabulary Categories -->
+    <string-array name="vocabulary_categories">
+        <item>Greetings</item>
+        <item>Numbers</item>
+        <item>Colors</item>
+        <item>Family</item>
+        <item>Food</item>
+        <item>Animals</item>
+        <item>Places</item>
+        <item>Time</item>
+        <item>Weather</item>
+        <item>Actions</item>
+    </string-array>
+</resources>

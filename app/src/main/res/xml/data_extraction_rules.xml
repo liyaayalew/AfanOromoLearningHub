@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <!-- Cloud backup rules -->
+    <cloud-backup>
+        <!-- Include user data -->
+        <include domain="sharedpref" path="AfanOromoLearningPref"/>
+        <include domain="database" path="afan_oromo_db"/>
+        <include domain="file" path="user_progress/"/>
+        <include domain="file" path="user_audio/"/>
+
+        <!-- Exclude cache and temp files -->
+        <exclude domain="file" path="cache/"/>
+        <exclude domain="file" path="temp/"/>
+        <exclude domain="file" path="debug/"/>
+    </cloud-backup>
+
+    <!-- Device transfer rules -->
+    <device-transfer>
+        <!-- Include user data for device transfer -->
+        <include domain="sharedpref" path="AfanOromoLearningPref"/>
+        <include domain="database" path="afan_oromo_db"/>
+        <include domain="file" path="user_progress/"/>
+        <include domain="file" path="user_audio/"/>
+
+        <!-- Exclude large files and cache -->
+        <exclude domain="file" path="cache/"/>
+        <exclude domain="file" path="temp/"/>
+        <exclude domain="file" path="large_audio_files/"/>
+    </device-transfer>
+</data-extraction-rules>

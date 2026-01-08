@@ -1,0 +1,54 @@
+{
+  "lessons": [
+    {
+      "id": "1",
+      "title": "Greetings",
+      "description": "Learn basic greetings in Afan Oromo",
+      "duration": "10 min",
+      "level": "beginner",
+      "category": "Greetings",
+      "vocabulary": [
+        {
+          "oromo": "Akkam",
+          "english": "Hello",
+          "pronunciation": "ah-kahm",
+          "audio": "audio_greeting_hello.mp3"
+        },
+        {
+          "oromo": "Nagaa",
+          "english": "Goodbye",
+          "pronunciation": "nah-gah",
+          "audio": "audio_greeting_goodbye.mp3"
+        },
+        {
+          "oromo": "Galatoomaa",
+          "english": "Thank you",
+          "pronunciation": "gah-lah-too-mah",
+          "audio": "audio_thank_you.mp3"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Numbers 1-10",
+      "description": "Learn to count from 1 to 10",
+      "duration": "15 min",
+      "level": "beginner",
+      "category": "Numbers",
+      "vocabulary": [
+        {
+          "oromo": "Tokko",
+          "english": "One",
+          "pronunciation": "tok-ko",
+          "audio": "audio_number_one.mp3"
+        },
+        {
+          "oromo": "Lama",
+          "english": "Two",
+          "pronunciation": "lah-mah",
+          "audio": "audio_number_two.mp3"
+        }
+      ]
+    }
+  ]
+}

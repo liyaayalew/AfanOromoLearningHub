@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include all shared preferences -->
+    <include domain="sharedpref" path="."/>
+
+    <!-- Include databases -->
+    <include domain="database" path="."/>
+
+    <!-- Include files in internal storage -->
+    <include domain="file" path="."/>
+
+    <!-- Exclude cache directory -->
+    <exclude domain="file" path="cache/"/>
+
+    <!-- Exclude temporary files -->
+    <exclude domain="file" path="temp/"/>
+
+    <!-- Exclude debugging files -->
+    <exclude domain="database" path="debug.db"/>
+    <exclude domain="sharedpref" path="debug_preferences.xml"/>
+</full-backup-content>

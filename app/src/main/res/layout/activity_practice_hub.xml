@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="@string/practice_hub"
+            app:titleTextColor="@color/textPrimary" />
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/practice_your_skills"
+            android:textColor="@color/textPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/choose_practice_type"
+            android:textColor="@color/textSecondary"
+            android:textSize="14sp" />
+
+        <!-- Speaking Practice -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardSpeaking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/imageViewSpeaking"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_mic"
+                    app:tint="@color/colorPrimary"
+                    android:contentDescription="@string/mic_icon" />
+
+                <TextView
+                    android:id="@+id/titleSpeaking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imageViewSpeaking"
+                    android:layout_marginStart="12dp"
+                    android:layout_alignTop="@id/imageViewSpeaking"
+                    android:text="@string/speaking_practice"
+                    android:textColor="@color/textPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:maxWidth="200dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleSpeaking"
+                    android:layout_toEndOf="@id/imageViewSpeaking"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/speaking_practice_description"
+                    android:textColor="@color/textSecondary"
+                    android:textSize="14sp"
+                    android:maxWidth="200dp" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_arrow_right"
+                    app:tint="@color/textSecondary"
+                    android:contentDescription="@string/next_arrow"
+                    android:layout_toEndOf="@id/titleSpeaking" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Listening Practice -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardListening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/imageViewListening"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_volume"
+                    app:tint="@color/colorAccent"
+                    android:contentDescription="@string/volume_icon" />
+
+                <TextView
+                    android:id="@+id/titleListening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imageViewListening"
+                    android:layout_marginStart="12dp"
+                    android:layout_alignTop="@id/imageViewListening"
+                    android:text="@string/listening_practice"
+                    android:textColor="@color/textPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:maxWidth="200dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleListening"
+                    android:layout_toEndOf="@id/imageViewListening"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/listening_practice_description"
+                    android:textColor="@color/textSecondary"
+                    android:textSize="14sp"
+                    android:maxWidth="200dp" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_arrow_right"
+                    app:tint="@color/textSecondary"
+                    android:contentDescription="@string/next_arrow"
+                    android:layout_toEndOf="@id/titleListening" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Vocabulary Practice -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardVocabulary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/imageViewVocabulary"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_vocabulary"
+                    app:tint="@color/colorPrimary"
+                    android:contentDescription="@string/vocabulary_icon" />
+
+                <TextView
+                    android:id="@+id/titleVocabulary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imageViewVocabulary"
+                    android:layout_marginStart="12dp"
+                    android:layout_alignTop="@id/imageViewVocabulary"
+                    android:text="@string/vocabulary_practice"
+                    android:textColor="@color/textPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:maxWidth="200dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titleVocabulary"
+                    android:layout_toEndOf="@id/imageViewVocabulary"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/vocabulary_practice_description"
+                    android:textColor="@color/textSecondary"
+                    android:textSize="14sp"
+                    android:maxWidth="200dp" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_arrow_right"
+                    app:tint="@color/textSecondary"
+                    android:contentDescription="@string/next_arrow"
+                    android:layout_toEndOf="@id/titleVocabulary" />
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>
