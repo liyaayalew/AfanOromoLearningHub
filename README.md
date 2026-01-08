@@ -262,7 +262,8 @@ The app requires the following permissions:
 -  Liya Mekbib 
 -  Matewos Belachew 
 -  Tigist Kassa 
--  Yonas Woldegebreal 
+-  Yonas Woldegebreal
+-  Nyaliep Choul 
 
 
 ---
