@@ -3,6 +3,18 @@
 ## 📱 Application Overview
 Afan Oromo Learning Hub is an Android application designed to demonstarte how this kind of apps help users learn the Afan Oromo language through interactive lessons, vocabulary practice, and comprehension activities.
 
+---
+
+## 👥 Contributors
+-  Eyasu Ephrem 
+-  Liya Mekbib 
+-  Matewos Belachew 
+-  Tigist Kassa 
+-  Yonas Woldegebreal
+-  Nyaliep Choul
+
+---
+
 ## 🎯 Features
 - **User Authentication**: Login and signup with secure credential management
 - **Interactive Lessons**: Structured lessons with progressive difficulty levels
@@ -189,7 +201,8 @@ The app requires the following permissions:
 
 ## **Updated Future Enhancements Section:**
 
-```markdown
+---
+
 ## 🔮 Future Enhancements (Based on Current Implementation)
 
 ### **High Priority (Core Features Missing)**
@@ -256,14 +269,6 @@ The app requires the following permissions:
     - Additional UI language translations
     - RTL layout support
     - Localized content
-
-## 👥 Contributors
--  Eyasu Ephrem 
--  Liya Mekbib 
--  Matewos Belachew 
--  Tigist Kassa 
--  Yonas Woldegebreal
--  Nyaliep Choul 
 
 
 ---
